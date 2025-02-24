@@ -126,6 +126,37 @@ section {
     transform: scale(1.1);
 }
 
+/* Resume Section */
+#resume {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+.resume-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resume-actions .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: white;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.resume-actions .btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+
 /* Skills Section */
 .skills-container {
     display: flex;
